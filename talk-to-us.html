@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIRL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/talk.css">
+</head>
+
+<body>
+<div class="talk">
+    <div class="mobile-logo fixed-top">
+        <a href="./index.html"><img src="./assets/images/logo.png" alt=""></a>
+    </div>
+    <section class="ei-about-section">
+        <div class="talk-to-us-div container">
+            <div class="ei-about-head head-1">
+                <h1>Talk to us</h1>
+            </div>
+            <div class="mobile-talk-to-us-div ei-talkto-us-body">
+                <form action="/">
+                    <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Full Name" required>
+                    </div>
+                    <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone" placeholder="Enter Phone Number" required>
+                    </div>
+                    <!-- <div class="mobile-talk-to-us talk-to-us-details ">
+                        <label for="date">Meeting Date and Time</label>
+                        <input class="datetime" type="date" name="date" id="date" placeholder="Select Date" required>
+                        <input class="datetime" type="time" name="date" id="date" placeholder="Select Date" required>
+                    </div> -->
+                    <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="format">Meeting Format</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Online / Offline</option>
+                            <option value="1">Online</option>
+                            <option value="2">Offline</option>
+                          </select>
+                    </div>
+                    <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
+                    </div>
+                    <!-- <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="org">Company / Organization</label>
+                        <input type="text" name="org" id="org" placeholder="Enter the name of your company" required>
+                    </div> -->
+                    <!-- <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="duration">Duration</label>
+                        <input type="text" name="duration" id="duration" placeholder="Enter time, eg. 30min/1 hour" required>
+                    </div> -->
+                    <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="purpose">Meeting Purpose/Agenda</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose</option>
+                            <option value="1">Startup Idea</option>
+                            <option value="2">Website/App services</option>
+                            <option value="3">Cyber security</option>
+                            <option value="4">Others</option>
+                          </select>
+                    </div>
+                    <div class="mobile-talk-to-us talk-to-us-details">
+                        <label for="question">Additional Questions</label>
+                        <textarea name="question" id="question" cols="30" rows="3" placeholder="You can mentions your questions for us here." required></textarea>
+                    </div>
+                    <div class="form-submit-div">
+                        <button class="btn form-submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="mob-bottom-bar">
+            <div class="ei-bottom-bar-options">
+                <a href="./index.html"><img src="./assets/images/bottom-bar/home.svg" alt=""></a>
+                <span>Home</span>
+            </div>
+            <div class="ei-bottom-bar-options">
+                <a href="./about_us.html"><img src="./assets/images/bottom-bar/about.svg" alt=""></a>
+                <span>About</span>
+            </div>
+
+            <div class="ei-bottom-bar-options">
+                <a href="./what_we_do.html"><img src="./assets/images/bottom-bar/work.svg" alt=""></a>
+                <span>Work</span>
+            </div>
+            <div class="ei-bottom-bar-options">
+                <a href="./work-with-us.html"><img src="./assets/images/bottom-bar/careers.svg" alt=""></a>
+                <span>Careers</span>
+            </div>
+            <div class="ei-bottom-bar-options">
+                <a href="./talk-to-us.html"><img src="./assets/images/bottom-bar/contact-active.svg" alt=""></a>
+                <span class="bottom-bar-active">Contact</span>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="rotate">
+    <img src="./assets/images/rotate.gif" alt="">
+    <h3>Uh oh! Seems like you rotated your phone.</h3>
+    <p>Kindly flip back to portrait mode to view our website.</p>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./assets/js/digits.js"></script>
+</body>
+</html>
