@@ -332,8 +332,8 @@ body {
 .ei-illustration-4 {
     position: absolute;
     z-index: -1;
-    top: 33%;
-    left: 20%;
+    top: 31%;
+    left: 21%;
     width: 50%;
 }
 
@@ -1270,6 +1270,15 @@ input[type=number] {
     .ei-contact-foot h2 {
         font-size: 1rem;
     }
+
+    .ei-buzz-row {
+        gap: 1rem;
+
+    }
+
+    .ei-buzz-img {
+        height: 80%;
+    }
 }
 @media only screen and (max-width: 767px) and (min-width: 550px){
     #desktop-talk-to-us {
@@ -2027,8 +2036,12 @@ input[type=number] {
     }
 
     .ei-illustration-4 {
-        top: 31%;
-        left: 29%;
+        top: 28%;
+        left: 20%;
+    }
+
+    .ei-illustration-4 img {
+        height: 40rem;
     }
 
     .ei-why-us-wrappar {
